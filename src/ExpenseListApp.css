@@ -11,7 +11,7 @@ body {
     margin: auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(212, 13, 13, 0.1);
   }
   
   h1 {
@@ -46,6 +46,7 @@ body {
     font-size: 14px;
     transition: background-color 0.3s;
     margin-top: 1px; /* Adjust spacing between buttons */
+    
   }
   
   .expense-item-buttons button.edit-button {
@@ -87,7 +88,6 @@ body {
     max-height: 300px; /* Adjust the height as needed */
     overflow-y: auto;
   }
-  
-  /* Add any additional styles as needed */
+
   
   

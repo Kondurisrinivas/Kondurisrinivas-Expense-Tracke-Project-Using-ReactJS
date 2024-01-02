@@ -38,7 +38,7 @@ const ExpenseListApp = () => {
 
   return (
     <div className="expense-list-app">
-      <h1>Expense List App</h1>
+      <h1>Expense List</h1>
       {isFormVisible && <ExpenseForm onAddExpense={handleAddExpense} categories={categories} />}
       <div className="list-container">
         <ul>
