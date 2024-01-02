@@ -1,0 +1,24 @@
+/* ExpenseItem.css */
+.expense-item {
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for expense details within the list item */
+  .expense-details {
+    margin-bottom: 10px;
+  }
+  
+  .expense-details strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
